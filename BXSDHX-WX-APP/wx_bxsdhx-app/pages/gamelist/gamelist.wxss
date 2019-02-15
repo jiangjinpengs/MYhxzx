@@ -1,0 +1,172 @@
+.body {
+  width: 730rpx;
+  margin: 0 auto;
+}
+
+.author {
+  width: 730rpx;
+  border-radius: 20rpx;
+  background-color: white;
+  margin-top: 20rpx;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #898989;
+  height: 90rpx;
+  width: 710rpx;
+  margin: 0 auto;
+}
+
+.header image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+
+.header>view:nth-child(2) {
+  margin-left: 20rpx;
+}
+
+.gamelist {
+  width: 730rpx;
+  height: 120rpx;
+  padding-bottom: 20rpx;
+  margin-bottom: 20rpx;
+  border-bottom: 1rpx solid rgb(247, 247, 247);
+}
+
+.gamelist:last-child {
+  border-bottom: none;
+}
+
+.gamelist1 {
+  width: 730rpx;
+  height: 120rpx;
+  padding-bottom: 20rpx;
+  margin-bottom: 20rpx;
+  border-bottom: 1rpx solid rgb(247, 247, 247);
+}
+
+.gamelist1:last-child {
+  border-bottom: none;
+}
+
+.gamelist-list {
+  width: 710rpx;
+  height: 120rpx;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gamelist-list-image {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.gamelist-list-image>image {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 20rpx;
+}
+
+.gamelist-list-text {
+  width: 670rpx;
+  height: 120rpx;
+  font-size: 26rpx;
+  margin-left: 20rpx;
+}
+
+.gamelist-list-text>view:nth-child(1) {
+  font-weight: bold;
+}
+
+.gamelist-list-text>view:nth-child(2) {
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+
+.gamelist-list-text>view:nth-child(3) {
+  font-size: 20rpx;
+  margin-top: 10rpx;
+  color: #ff8e13;
+}
+
+.gamelist-list-text>view:nth-child(3)>text {
+  float: right;
+  margin-right: 20rpx;
+}
+
+.nogame {
+  width: 100%;
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #898989;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60rpx;
+}
+
+.menu-detail-list {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #efefef;
+  padding: 15rpx 15rpx;
+}
+
+.menu-detail-list .menu-detail .menu-detail-img {
+  display: inline-block;
+  width: 140rpx;
+  height: 140rpx;
+  background-size: 100% 100%;
+  border-radius: 25rpx;
+  float: left;
+}
+
+.menu-detail-img {
+  margin-right: 20rpx;
+}
+
+.menu-right .menu-detail-list .menu-detail-text {
+  float: left;
+  display: inline-block;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+.menu-detail-list .menu-detail .menu-detail-text .menu-detail-title {
+  font-size: 30rpx;
+  font-weight: bold;
+  display: inline-block;
+  color: #000;
+}
+
+.menu-detail-list .menu-detail .menu-detail-text .menu-detail-des {
+  font-size: 26rpx;
+  color: #999;
+}
+
+.menu-detail-list .menu-detail .menu-detail-text .menu-detail-player {
+  font-size: 24rpx;
+  display: inline-block;
+  color: #ff8e13;
+}
+
+/* menu-detail-img */
+
+.menu-detail-text {
+  height: 4.2rem;
+}
+
+.menu-detail-list .menu-detail .menu-detail-btn {
+  display: inline-block;
+  background-color: #0475f5;
+  width: 700rpx;
+  margin-top: 20rpx;
+}

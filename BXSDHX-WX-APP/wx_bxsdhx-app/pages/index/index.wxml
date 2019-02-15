@@ -1,0 +1,22 @@
+<view class='body'>
+  <view class='body-comtent'>
+    <view class='body-comtent-title'>
+      生活小常识
+    </view>
+    <view>
+      <block wx:for="{{comtent}}" wx:key="{{item}}">
+        <view class='body-comtent-list' data-item="{{index}}" bindtap='gocomtent'>
+          <view class='body-comtent-list-title'>
+            <view>
+              <text>{{index+1}}.{{item.title}}</text>
+              <text class='trtext' style='transform: rotate({{item.trdom}}deg);'>></text>
+            </view>
+          </view>
+          <view class='body-comtent-list-comtent' style='height:{{item.height}};margin-top:{{item.height=="0rpx"?"0":"16"}}rpx;'>
+            {{item.comtent}}
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

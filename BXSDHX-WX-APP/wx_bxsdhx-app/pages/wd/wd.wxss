@@ -1,0 +1,382 @@
+/* pages/Myuser/Myuser.wxss */
+
+.user {
+  width: 100%;
+  position: relative;
+}
+
+.zd {
+  width: 100%;
+  height: 80rpx;
+  background-color: white;
+  position: absolute;
+  top: 312rpx;
+  left: 0;
+  z-index: -100;
+}
+
+/* 头部 */
+
+.user-header {
+  width: 100%;
+  height: 280rpx;
+  background-color: #457efc;
+  padding-top: 30rpx;
+}
+
+.user-comtent {
+  width: 100%;
+  height: 100%;
+  margin-top: 83rpx;
+}
+
+.user-data {
+  width: 100%;
+  height: 320rpx;
+}
+
+.myuser {
+  width: 700rpx;
+  height: 320rpx;
+  background-color: white;
+  border-radius: 10rpx;
+  margin: 0px auto;
+  box-shadow: 0px 2px 20rpx rgba(79, 66, 255, 0.3);
+  z-index: 1000;
+}
+
+.myuser-header {
+  width: 658rpx;
+  height: 120rpx;
+  margin: 30rpx auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.myuser-header-user {
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+  margin-top: 30rpx;
+}
+
+.myuser-header-user>image {
+  width: 120rpx;
+  height: 120rpx;
+  margin-right: 24rpx;
+  border-radius: 50%;
+}
+
+.myuser-header-user>text {
+  font-size: 42rpx;
+  color: black;
+  font-weight: bold;
+}
+
+.gondata {
+  width: 100%;
+  height: 420rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin-top: 10rpx;
+}
+
+.gondata-comtet {
+  width: 718rpx;
+  height: 360rpx;
+  border-radius: 14rpx;
+  position: relative;
+}
+
+.gondata-comtet1 {
+  width: 718rpx;
+  height: 360rpx;
+}
+
+.gondata-comtent-top {
+  width: 650rpx;
+  margin: 40rpx auto;
+  display: flex;
+}
+
+.gondata-comtent-top-left {
+  width: 489rpx;
+}
+
+.gondata-comtent-top-left>text {
+  display: block;
+}
+
+.gondata-comtent-top-left>text:nth-child(1) {
+  font-size: 28rpx;
+  color: white;
+}
+
+.gondata-comtent-top-left>text:nth-child(2) {
+  font-size: 54rpx;
+  color: #ffe242;
+  font-weight: bold;
+}
+
+.gondata-comtent-top-right {
+  width: 161rpx;
+  height: 66rpx;
+  margin-top: 4rpx;
+  background-color: #ffe242;
+  color: #4f42ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+  border-radius: 20rpx;
+}
+
+.gondata-comtent-bottom {
+  width: 650rpx;
+  margin: 40rpx auto;
+  display: flex;
+  margin-top: 78rpx;
+}
+
+.gondata-comtent-bottom>view {
+  width: 33.33333333333333333333%;
+  display: flex;
+  justify-content: center;
+}
+
+.gondata-comtent-bottom>view>view>view {
+  display: flex;
+  justify-content: center;
+}
+
+.gondata-comtent-bottom>view>view:nth-child(1) {
+  font-size: 28rpx;
+  margin-bottom: 8rpx;
+  font-weight: bold;
+}
+
+.gondata-comtent-bottom>view>view:nth-child(2) {
+  color: #4f42ff;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+/* 我要赚积分 */
+
+.game {
+  width: 100%;
+  height: 306rpx;
+  background-color: white;
+  margin-top: 10rpx;
+}
+
+.game-comtent {
+  width: 718rpx;
+  height: 306rpx;
+  margin: 0 auto;
+}
+
+.game-comtent-header {
+  width: 100%;
+  height: 88rpx;
+  display: flex;
+  align-items: center;
+  font-size: 32rpx;
+  color: black;
+  font-weight: bold;
+}
+
+.game-comtent-comtent {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-list {
+  width: 140rpx;
+  height: 218rpx;
+  margin-bottom: 30rpx;
+  margin-right: 75rpx;
+}
+
+.game-num {
+  width: 122rpx;
+  height: 120rpx;
+  margin: 0 auto;
+}
+
+.game-num>image {
+  width: 122rpx;
+  height: 120rpx;
+  border-radius: 18rpx;
+}
+
+.game-text {
+  width: 140rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.game-text {
+  font-size: 28rpx;
+  color: black;
+  margin-top: 8rpx;
+}
+
+/* 热门活动 */
+
+.Popularactivity {
+  width: 100%;
+  background-color: white;
+  padding-bottom: 30rpx;
+}
+
+.Popularactivity-comtent {
+  width: 718rpx;
+  margin: 30rpx auto;
+}
+
+.Popularactivity-comtent-yqhy {
+  width: 100%;
+  height: 200rpx;
+  position: relative;
+}
+
+.Popularactivity-comtent-yqhy-img, .Popularactivity-comtent-yqhy-comtent {
+  width: 100%;
+  height: 200rpx;
+  border-radius: 10rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.Popularactivity-comtent-yqhy-comtent {
+  z-index: 1;
+}
+
+.Popularactivity-comtent-yqhy-comtent1 {
+  margin-left: 30rpx;
+  margin-top: 57rpx;
+}
+
+.Popularactivity-comtent-yqhy-comtent1-h1 {
+  font-size: 34rpx;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10rpx;
+}
+
+.Popularactivity-comtent-yqhy-comtent1-text {
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+}
+
+.Popularactivity-comtent-yqhy-comtent1-go {
+  width: 44rpx;
+  height: 44rpx;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10rpx;
+}
+
+/* 下方操作按钮 */
+
+.user-comtent-list {
+  background-color: white;
+}
+
+.user-comtent-list-cz {
+  width: 719rpx;
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  /* background-color: yellow; */
+}
+
+.user-comtent-list-cz-img {
+  width: 36rpx;
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+}
+
+.user-comtent-list-cz-img>image {
+  width: 36rpx;
+  height: 36rpx;
+}
+
+.user-comtent-list-cz-text {
+  width: 683rpx;
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 32rpx;
+  border-bottom: 1rpx solid #ebebeb;
+}
+
+.text {
+  margin-left: 25rpx;
+  font-weight: bold;
+  font-size: 32rpx;
+}
+
+.sucs {
+  font-size: 24rpx;
+  color: #00000081;
+}
+
+.gotext {
+  margin-left: 36rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+}
+
+.Grade {
+  width: 100%;
+  height: 20rpx;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.Grade>view {
+  background-color: rgb(228, 84, 84);
+  border-radius: 10rpx;
+  width: 70%;
+  height: 50rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+  font-size: 26rpx;
+}
+
+.problem {
+  width: 500rpx;
+  height: 500rpx;
+  overflow-y: scroll;
+  background-color: black;
+  opacity: 0.8;
+  position: fixed;
+  top: 200rpx;
+  left: 19%;
+  border-radius: 20rpx;
+}
+
+.problem>view {
+  width: 100%;
+  /* line-height: 20rpx; */
+  color: white;
+  font-size: 30rpx;
+  letter-spacing:5rpx;
+}

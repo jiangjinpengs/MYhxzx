@@ -1,0 +1,35 @@
+/* component/listgame/listgame.wxss */
+
+.game {
+  width: 150rpx;
+  height: 210rpx;
+  margin-top: 20rpx;
+}
+
+.game-img {
+  border-radius: 34rpx;
+  width: 140rpx;
+  height: 140rpx;
+  margin-bottom: 5rpx;
+}
+
+.game-text1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rpx;
+}
+
+.game-text2 {
+  display: flex;
+  justify-content: center;
+}
+
+.game-text1>text {
+  font-size: 26rpx;
+  color: #000;
+  font-weight: bold;
+}
+
+.game-text2>text {
+  font-size: 21rpx;
+}

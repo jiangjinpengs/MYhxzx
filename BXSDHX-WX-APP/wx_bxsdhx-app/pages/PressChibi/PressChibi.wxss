@@ -1,0 +1,172 @@
+/* pages/PressChibi/PressChibi.wxss */
+
+.body {
+  width: 730rpx;
+  margin: 20rpx auto;
+  padding-top: 20rpx;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-img {
+  width: 120rpx;
+  height: 120rpx;
+  margin-right: 20rpx;
+}
+
+.header-img>image {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+
+.header-text {
+  font-size: 28rpx;
+}
+
+.header-text-owe {
+  font-size: 20rpx;
+}
+
+.kong {
+  width: 100%;
+  height: 20rpx;
+  background-color: #e4e4e4;
+}
+
+.jilu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jilu>view {
+  width: 140rpx;
+  height: 50rpx;
+  border-radius: 20rpx;
+  background-color: rgb(2, 177, 2);
+  color: white;
+  font-size: 28rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-style-header {
+  width: 100%;
+  display: flex;
+}
+
+.list-style-heade1 {
+  width: 10rpx;
+  height: 40rpx;
+  background-color: rgb(2, 177, 2);
+  border-radius: 6rpx;
+  margin-right: 20rpx;
+}
+
+.list-style-heade2 {
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+}
+
+.gz {
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 20rpx;
+}
+
+.gz>text {
+  margin-right: 10rpx;
+}
+
+.over-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.over-header>view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22rpx;
+  color: rgb(46, 44, 44);
+  height: 60rpx;
+  outline: 0.1rpx solid #999;
+  width: 25%;
+  overflow: hidden;
+}
+
+.Rankings-jzgd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  font-size: 22rpx;
+  height: 60rpx;
+}
+
+.wenhao {
+  padding: 10rpx;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 26rpx;
+  background-color: rgb(2, 177, 2);
+  color: white;
+  padding-top: 2rpx;
+  padding-bottom: 2rpx;
+  margin-left: 40rpx;
+}
+
+.golist {
+  width: 100%;
+  height: 200rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
+}
+
+.golist>view {
+  width: 20%;
+  height: 200rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 70rpx;
+  outline: 16rpx solid rgba(51, 166, 233, 0.575);
+  color: rgb(104, 104, 224);
+}
+
+.woxuanzhong {
+  font-size: 28rpx;
+  margin-top: 10rpx;
+}
+
+.woxuanzhonggo>input {
+  width: 100%;
+  height: 60rpx;
+  font-size: 24rpx;
+  color: #ff8e13;
+  margin: 20rpx 0;
+  outline: 1rpx solid #ececec;
+  border-radius: 20rpx;
+  text-align: center;
+}
+
+.Noterecord {
+  width: 730rpx;
+  background-color: white;
+  border-radius: 20rpx;
+  position: fixed;
+  top: 40rpx;
+  left: 1.5%;
+}

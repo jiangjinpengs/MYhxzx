@@ -1,0 +1,8 @@
+<import src="../../wxParse/wxParse.wxml" />
+<view>
+  <!--引入 wxparse 模板文件 这里是固定写法 这里单独获取content内容-->
+  <!--这里data中article为bindName-->
+  <view class="wxParse">
+    <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+  </view>
+</view>

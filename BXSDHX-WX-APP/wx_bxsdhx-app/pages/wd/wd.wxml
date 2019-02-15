@@ -1,0 +1,110 @@
+<view class='user'>
+  <view class='user-header'>
+    <view class='user-data'>
+      <view class='myuser'>
+        <view class='myuser-header'>
+          <view class='myuser-header-user'>
+            <image src='{{userInfo.avatarUrl}}'></image>
+            <text>{{userInfo.nickName}}</text>
+          </view>
+        </view>
+        <view class='gondata-comtet1 gondata-comtent' style='z-index:1;'>
+          <view class='gondata-comtent-bottom'>
+            <view>
+              <view>
+                <view style='color:black;font-size:28rpx;'>我的积分</view>
+                <view style='margin-top:12rpx;color: #4f42ff;'>{{integral}}</view>
+              </view>
+            </view>
+            <view>
+              <view style='width:2rpx;height:100rpx;background-color:#999999;opacity:.4;'></view>
+            </view>
+            <view>
+              <view>
+                <view style='color:black;font-size:28rpx;'>我的签到</view>
+                <view style='margin-top:12rpx;color: #4f42ff;font-size:20rpx;' class='Grade'>
+                  <view bindtap='singn'>签到</view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='zd'></view>
+  <view class='user-comtent'>
+    <view class='user-comtent-list'>
+    <view class='user-comtent-list-cz' bindtap='Release'>
+        <view class='user-comtent-list-cz-img'>
+          <image src='../../imgs/systemimg/fabu.png'></image>
+        </view>
+        <view class='user-comtent-list-cz-text'>
+          <view class='text'>我发布的</view>
+          <view>
+            <text class='sucs'></text>
+            <text class='gotext'>></text>
+          </view>
+        </view>
+      </view>
+      <view class='user-comtent-list-cz' bindtap='Myuserproblem'>
+        <view class='user-comtent-list-cz-img'>
+          <image src='../../imgs/systemimg/question@2x.png'></image>
+        </view>
+        <view class='user-comtent-list-cz-text'>
+          <view class='text'>常见问题</view>
+          <view>
+            <text class='sucs'></text>
+            <text class='gotext'>></text>
+          </view>
+        </view>
+      </view>
+      <view class='user-comtent-list-cz'>
+        <view class='user-comtent-list-cz-img'>
+          <image src='../../imgs/systemimg/contact@2x.png'></image>
+        </view>
+        <view class='user-comtent-list-cz-text'>
+          <view class='text'>联系我们</view>
+          <view>
+            <text class='sucs'></text>
+            <text class='gotext'>></text>
+          </view>
+        </view>
+      </view>
+      <button open-type="contact" style="height:100rpx;opacity:0;margin-top:-110rpx;" />
+      <view class='user-comtent-list-cz' bindtap='QQ'>
+        <view class='user-comtent-list-cz-img'>
+          <image src='../../imgs/systemimg/QQ.png'></image>
+        </view>
+        <view class='user-comtent-list-cz-text'>
+          <view class='text'>联系QQ</view>
+          <view>
+            <text class='sucs'></text>
+            <text class='gotext'>></text>
+          </view>
+        </view>
+      </view>
+      <view class='user-comtent-list-cz' bindtap='wx'>
+        <view class='user-comtent-list-cz-img'>
+          <image src='../../imgs/systemimg/wx.png'></image>
+        </view>
+        <view class='user-comtent-list-cz-text'>
+          <view class='text'>联系微信</view>
+          <view>
+            <text class='sucs'></text>
+            <text class='gotext'>></text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='problem' style='display:{{hellow}};' bindtap='Myuserproblem'>
+  <view>
+    幻想致信于2018-11-1正式运营,目前许多功能未开发出来,请各位客官不要着急,由于作者白天还要上班,只有晚上一两个小时有时间写程序,所以时间上不是很充足,如果各位有什么好的建议或者发现什么BUG请联系作者 <view bindtap='QQ' style='margin:20rpx 0;color:#457efc;font-weight:blod;'>QQ1686219806</view> 或者 <view bindtap='wx' style='margin:20rpx 0;color:#457efc;font-weight:blod;'>微信号18227176063</view>点击文字复制即可!!!
+  </view>
+</view>
+<button data-name="shareBtn" class='fxs' plain="true" open-type="share">
+  <image src='../../imgs/fxxcx.png' bindtap="onShareAppMessages" style='border-radius:50%;z-index:1;'></image>
+  <view style='width:120rpx;height:120rpx;border-radius:50%;margin-top:-146rpx;margin-left:0;z-index:0;'></view>
+</button>
