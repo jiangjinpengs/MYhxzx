@@ -1,9 +1,0 @@
-<navigator class='game' target="miniProgram" open-type="navigate" app-id="{{item.GameUrl}}" path="{{item.extradata}}" extra-data="" bindtap="Lately" data-item="{{item}}">
-  <image src='{{item.Gamepicture}}' class='game-img'></image>
-  <view class='game-text1'>
-    <text>{{item.Gamename}}</text>
-  </view>
-  <view class='game-text2'>
-    <text><text style='color:#ffae00;'>{{item.Inthenumberofpeopleplaying}}</text><text style='color: #999999;'>人在玩</text></text>
-  </view>
-  </navigator>
